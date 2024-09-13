@@ -14,7 +14,7 @@ class Solution {
             }
             cmax = Math.max(nums[i], cmax * nums[i]);
             cmin = Math.min(nums[i], cmin * nums[i]);           
-            max= Math.max(maxp, cmax);
+            max= Math.max(max, cmax);
         }
 
         return max;
