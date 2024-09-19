@@ -1,7 +1,7 @@
 
 //kadanaes algorithm is used to solve the MAX_SUBARRAY types of problems
 
-class HelloWorld {
+class Kadanes_Algo{
     public static void main(String[] args) {
         int[] arr={1,-3,5,4,-2,1,5};
         int count=0;
