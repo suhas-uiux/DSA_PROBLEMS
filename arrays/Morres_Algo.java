@@ -1,3 +1,4 @@
+//morres algorithm is usually used for calculating the majority elemnt in an array
 class HelloWorld {
     public static void main(String[] args) {
         int[] arr = {1, 1, 2, 1,12,12,12,12,12,12,2, 2, 2, 2};
