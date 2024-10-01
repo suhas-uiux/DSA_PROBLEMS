@@ -1,3 +1,12 @@
+// Example 1:
+
+// Input: x = 123
+// Output: 321
+// Example 2:
+
+// Input: x = -123
+// Output: -321
+
 class Solution {
     public int reverse(int x) {
         int reversed = 0;
