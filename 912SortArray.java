@@ -4,6 +4,18 @@
 // Input: nums = [5,2,3,1]
 // Output: [1,2,3,5]
 // Explanation: After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).
+
+//                                                                OR
+// Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+// We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+// You must solve this problem without using the library's sort function.
+
+// Example 1:
+// Input: nums = [2,0,2,1,1,0]
+// Output: [0,0,1,1,2,2]
+// Example 2:
+// Input: nums = [2,0,1]
+// Output: [0,1,2]
 class Solution {
     public int[] sortArray(int[] nums) {
      Map<Integer,Integer> hm=new HashMap<Integer,Integer>();
