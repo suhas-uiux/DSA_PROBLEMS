@@ -25,3 +25,24 @@ class Solution {
         return max;
     }
 }
+
+//approach
+class Solution {
+    public int maxProfit(int[] prices) {
+        int i = 0;  // Buying pointer
+        int j = 1;  // Selling pointer
+        int profit = 0;
+
+        while (j < prices.length) {
+            if (prices[j] > prices[i]) {
+                profit = Math.max(profit, prices[j] - prices[i]);
+            } else {
+                i = j;  // Move the buying pointer to the current index
+            }
+            j++; 
+        }
+
+        return profit;
+    }
+}
+
