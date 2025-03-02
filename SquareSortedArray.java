@@ -5,7 +5,7 @@ class Solution {
             nums[i]=Math.abs(nums[i]);
         }
         for(int i=0;i<nums.length;i++){
-            ans[i]=nums[i]*nums[i];
+            ans[i]=(int)Math.pow(nums,2);
         }
         Arrays.sort(ans);
         return ans;
